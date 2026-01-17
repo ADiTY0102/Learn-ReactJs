@@ -9,8 +9,9 @@ const UserCard = () => {
       </div>
       <div className="middle-part flex items-center flex-col justify-center">
         <img className="h-40 w-40 rounded-full object-contain" src="https://i.pinimg.com/1200x/17/c0/d1/17c0d1bfcef18ad4a83d5b5b95f328df.jpg" alt="" />
-        <h2 className="font-semibold text-base font-sans">Lord Adii</h2>
-        <p className="font-thin text-xs">UI/UX Designer</p>
+        <h2 className="font-semibold text-lg font-sans">Aditya Binjagermath</h2>
+        <h4 className="font-light text-xs">UI/UX Designer</h4>
+        <p className="designation text-blue-300">Freelancer</p>
       </div>
     </div>
   );
