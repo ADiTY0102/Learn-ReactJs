@@ -1,10 +1,14 @@
 import './index.css'
-import UserPage from './Pages/UserPage'
+import SectionOne from './Pages/SectionOne'
+import SectionTwo from './Pages/SectionTwo'
+// import UserPage from './Pages/UserPage'
 function App() {
 
   return (
     <>
-      <UserPage />
+      {/* <UserPage /> */}
+      <SectionOne/>
+      <SectionTwo/>
     </>
   )
 }

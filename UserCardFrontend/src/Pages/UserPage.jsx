@@ -18,7 +18,7 @@ const UserPage = () => {
         },
         {
             status: "avaliable",
-            name: "Sara Nandekar",
+            name: "Sneha Chavan",
             role: "Frontend Developer",
             tag: "Epic Coder",
             rate: 18,
