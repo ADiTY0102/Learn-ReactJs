@@ -1,10 +1,10 @@
 import './index.css'
-import UserPage from './Pages/UserPage'
+// import UserPage from './Pages/UserPage'
 function App() {
 
   return (
     <>
-      <UserPage />
+      {/* <UserPage /> */}
     </>
   )
 }
