@@ -43,8 +43,8 @@ const UserCard = (props) => {
             {skill}
           </button>
         ))}
-        <button className="bg-blue-400 rounded-full px-4 py-1 m-1">
-          +9
+        <button className="bg-blue-400 rounded-full px-4 py-1 m-1 hover:cursor-pointer">
+          {props.skills[3]}
         </button>
 
         <p className="mt-3 text-[10px] text-gray-600 px-2">
@@ -61,6 +61,7 @@ const UserCard = (props) => {
             font-semibold text-[15px]
             transition-colors duration-300
             hover:bg-sky-500 hover:text-white
+            hover:cursor-pointer
           "
         >
           VIEW PROFILE
