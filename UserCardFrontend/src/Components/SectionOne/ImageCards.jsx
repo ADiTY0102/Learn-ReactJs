@@ -13,7 +13,7 @@ const ImageCards = (props) => {
                             {props.btn}
                         </button>
                         <button className={`${props.btn === "Satisfied" || props.btn === "Underserved" ? "bg-indigo-500" : "bg-[#c9f95f]"} ml-2 rounded-full cursor-pointer`}>
-                            <ArrowRight size={44} color="#ffffff" strokeWidth={1.5} />
+                            <ArrowRight  size={44} color="#000000" strokeWidth={1.5} />
                         </button>
                     </div>
                 </div>

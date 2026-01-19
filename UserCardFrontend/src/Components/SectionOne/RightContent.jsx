@@ -29,7 +29,7 @@ const RightContent = () => {
                     data={data.description}
                     img={data.image}
                     btn={data.btn} 
-                    />
+                />
             })}
         </div>
     )
