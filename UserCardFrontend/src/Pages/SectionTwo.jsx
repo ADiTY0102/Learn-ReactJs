@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../Components/SectionTwo/Navbar'
 import CenterMain from '../Components/SectionTwo/CenterMain'
-import MarketTrendsSlide from '../Components/SectionTwo/MarketTrendsSlide'
+// import MarketTrendsSlide from '../Components/SectionTwo/MarketTrendsSlide' 
 
 const SectionTwo = () => {
   
