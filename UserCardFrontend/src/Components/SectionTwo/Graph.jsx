@@ -21,7 +21,7 @@ const Graph = () => {
                     { year: "2024", h: "264" },
                     { year: "2025", h: "370" },
                     { year: "2027", h: "430" },
-                ].map((item, idx) => (
+                ].map((item) => (
                     <div key={item.year} className="flex flex-col items-center flex-1 border-b">
                         <div
                             className="w-4 rounded-full bg-black"
