@@ -2,8 +2,11 @@ import React from 'react'
 
 const Graph = () => {
     return (
-        <div className="flex-1 rounded-3xl px-8 py-6 flex flex-col justify-between">
-        
+        <div className="flex-1 rounded-3xl px-8 py-0 flex flex-col justify-between">
+            <div className="flex flex-col">
+                <h2 className="text-2xl font-bold">Market Growth</h2>
+                <p className="text-gray-500 text-sm mt-1">AI in FinTech Market Size (in USD Billion)</p>
+            </div>
             <div className="flex items-center justify-end">
                 <span className="rounded-full bg-black text-white text-[10px] font-semibold px-3 py-1">
                     26.7% CAGR
@@ -31,8 +34,9 @@ const Graph = () => {
                         <span className="mt-2 text-[10px] text-gray-400">
                             {item.year} 
                         </span>
-                        
+                        <div className='font-semibold text-gray-700 mt-1'>
                         {item.month}
+                        </div>
                     </div>
                 ))}
             </div>
