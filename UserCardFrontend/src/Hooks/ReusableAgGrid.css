@@ -1,0 +1,103 @@
+/* src/styles/ag-theme-blue-gradient.css */
+
+/* Base: start from Quartz look but with our parameters */
+.ag-theme-blue-gradient {
+  --ag-font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  --ag-foreground-color: #111827;
+  --ag-background-color: #ffffff;
+
+  --ag-header-foreground-color: #f9fafb;
+  --ag-header-background-color: transparent; /* we will set gradient below */
+
+  --ag-odd-row-background-color: #ffffff;
+  --ag-even-row-background-color: #f9fafb;
+  --ag-row-hover-color: rgba(59, 130, 246, 0.08);
+
+  --ag-border-color: #e5e7eb;
+
+  --ag-header-column-separator-display: block;
+  --ag-header-column-separator-color: rgba(15, 23, 42, 0.08);
+  --ag-header-column-separator-width: 1px;
+
+  --ag-row-border-style: solid;
+  --ag-row-border-width: 0 0 1px 0;
+  --ag-row-border-color: #e5e7eb;
+
+  --ag-header-height: 40px;
+  --ag-row-height: 36px;
+  --ag-grid-size: 4px;
+}
+
+/* Gradient header band (like your screenshot) */
+.ag-theme-blue-gradient .ag-header {
+  background: linear-gradient(135deg, #3b82f6, #6366f1);
+  color: #f9fafb;
+}
+
+/* Header cells */
+.ag-theme-blue-gradient .ag-header-cell,
+.ag-theme-blue-gradient .ag-header-group-cell {
+  font-size: 13px;
+  font-weight: 600;
+  border-right: 1px solid rgba(15, 23, 42, 0.12);
+}
+
+/* Show small filter icon clearly on gradient */
+.ag-theme-blue-gradient .ag-header-icon {
+  filter: drop-shadow(0 0 1px rgba(15, 23, 42, 0.7));
+}
+
+/* Body cells */
+.ag-theme-blue-gradient .ag-cell {
+  font-size: 13px;
+  padding-inline: 8px;
+}
+
+/* Hover row */
+.ag-theme-blue-gradient .ag-row-hover .ag-cell {
+  background-color: rgba(59, 130, 246, 0.08);
+}
+
+/* Selected row */
+.ag-theme-blue-gradient .ag-row-selected .ag-cell {
+  background-color: rgba(99, 102, 241, 0.12);
+}
+
+/* Row number column stronger */
+.ag-theme-blue-gradient .ag-cell[col-id="__rowNum__"] {
+  font-weight: 600;
+}
+
+/* Pinned left separator */
+.ag-theme-blue-gradient .ag-pinned-left-header,
+.ag-theme-blue-gradient .ag-pinned-left-cols-container {
+  box-shadow: 2px 0 0 rgba(15, 23, 42, 0.06);
+}
+
+/* Pagination strip at bottom */
+.ag-theme-blue-gradient .ag-paging-panel {
+  border-top: 1px solid #e5e7eb;
+  padding: 4px 8px;
+  font-size: 12px;
+  background: linear-gradient(
+    90deg,
+    rgba(59, 130, 246, 0.05),
+    rgba(99, 102, 241, 0.08)
+  );
+}
+
+/* Scrollbar subtle */
+.ag-theme-blue-gradient .ag-body-horizontal-scroll-viewport::-webkit-scrollbar,
+.ag-theme-blue-gradient .ag-body-vertical-scroll-viewport::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+
+.ag-theme-blue-gradient
+  .ag-body-horizontal-scroll-viewport::-webkit-scrollbar-thumb,
+.ag-theme-blue-gradient
+  .ag-body-vertical-scroll-viewport::-webkit-scrollbar-thumb {
+  background-color: rgba(15, 23, 42, 0.2);
+  border-radius: 999px;
+}

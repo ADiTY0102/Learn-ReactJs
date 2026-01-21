@@ -31,10 +31,10 @@ const Graph = () => {
                             className="w-4 rounded-full bg-black"
                             style={{ height: `${item.h}px` }}
                         />
-                        <span className="mt-2 text-[10px] text-gray-400">
+                        <span className="mt-2 text-[15px] text-gray-700">
                             {item.year} 
                         </span>
-                        <div className='font-semibold text-gray-700 mt-1'>
+                        <div className='font-semibold text-[10px] text-gray-400'>
                         {item.month}
                         </div>
                     </div>
